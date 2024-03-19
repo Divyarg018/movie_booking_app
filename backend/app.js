@@ -5,6 +5,7 @@ const userRouter = require("./routes/user_routes");
 dotenv.config();
 
 const app = express();
+app.use(express.json());
 
 app.use("/user", userRouter);
 
