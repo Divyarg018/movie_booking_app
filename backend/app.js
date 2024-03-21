@@ -1,9 +1,9 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
-const userRouter = require("./routes/user_routes");
-const adminRouter = require('./routes/admin_routes');
-const movieRouter = require('./routes/movie_routes');
+const userRouter = require("./routes/user_routes.js");
+const adminRouter = require('./routes/admin_routes.js');
+const movieRouter = require('./routes/movie_routes.js');
 dotenv.config();
 
 const app = express();
