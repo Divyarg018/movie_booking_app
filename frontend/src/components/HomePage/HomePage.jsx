@@ -1,5 +1,5 @@
 import { Box, Button, Typography } from '@mui/material';
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import MovieItem from '../Movies/MovieItem.jsx';
 import { Link } from 'react-router-dom';
 import { getAllMovies } from '../../api_helpers/api_helpers.jsx';
