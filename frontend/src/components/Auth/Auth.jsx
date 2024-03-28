@@ -17,7 +17,7 @@ function Auth() {
     function getData(data) {
         console.log("Auth", data);
         sendUserAuthRequest(data.inputs, data.signup)
-            .then((onResReceived) => console.log(res))
+            .then((onResReceived) => console.log(onResReceived))
             .catch((err) => console.log(err));
     }
     return (
